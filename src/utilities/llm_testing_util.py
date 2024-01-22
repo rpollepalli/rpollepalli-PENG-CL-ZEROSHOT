@@ -6,7 +6,8 @@ from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate, HumanMessagePromptTemplate, SystemMessagePromptTemplate
 
-token = os.environ['HF_TOKEN'] # Ideally, we have this token set. Otherwise, replace with hardcoded HF token.
+
+token = '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' # Ideally, we have this token set. Otherwise, replace with hardcoded HF token.
 API_URL = os.environ['LLM_ENDPOINT']
 headers = {"Authorization": "Bearer " + token}
 textInput = """

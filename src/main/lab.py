@@ -21,7 +21,7 @@ without the need for any shown examples, this is considered a zero-shot problem.
 """
 TODO: Change the prompt below to allow for classification as described above.
 """
-prompt = ""
+prompt ="Show has bad reviews and I agrees with them"
 
 """
 There is no need to change the below function. It will properly use the prompt &
